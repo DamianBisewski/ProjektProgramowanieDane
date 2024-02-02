@@ -1,0 +1,5 @@
+outs:
+- md5: 234bbe3d0df63bc84cb64d9efc09fd6e
+  size: 22680393
+  hash: md5
+  path: GlobalLandTemperaturesByCountry.csv
