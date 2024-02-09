@@ -15,9 +15,9 @@ pip install -r requirements.txt
 ## Running the code
 As the code is written in a Jupyter notebook, it's most convenient to use such a notebook.
 ```bash
-jupyter lab
+ jupyter-lab arima_temperature_forecasting.ipynb
 ```
-After that, in the left-hand bar there will be the **arima_temperature_forecasting.ipynb** file. We open this file.
+This will open the **arima_temperature_forecasting.ipynb** file in a Jupyter notebook.
 Firstly, we read the provided CSV dataset and start with choosing the country for which we want to display and predict average monthly temperatures.
 After that, two graphs are displayed - the first showing average temperatures of months belonging to the period we want to see (by default Jan 2003 - Aug 2013), the second showing differences between months and the same months a year prior.
 Ultimately, there comes the ARIMA predicting itself. The user can customize the displayed graph. By default, the graph shows actual data from January 1990 to December 2011 and predictions with actual data from January 2012 to August 2013.
